@@ -1,2 +1,2 @@
-# WW3
-World War 3 Bot Website
+# 🌐 World War 3
+A Simple Website Made For World War 3 Bot.
