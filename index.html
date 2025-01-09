@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <title>WW3 Website</title>
     <style>
         body {
@@ -91,6 +92,7 @@
         <div id="header-div">
             <h1 id="name">World War 3</h1>
             <nav class="nav-links">
+                <a href="pages/fa.html">About Developer</a>
                 <a href="https://soodi592.github.io">About Developer</a>
                 <a href="#guide-header">Complete Guide</a>
             </nav>
@@ -103,8 +105,29 @@
         <div id="body-containings">
             <h3 id="guide-header" style="text-align: left; font-size: 32px;">📖 Guide</h3>
             <div id="guide">
+                <h4 style="font-size: 25px;">🕑 Phases</h4>
+                <h5 style="font-size: 20px;" class="green">Mini Phase</h5><p>A Short Phase for players to gather resources and ready for the main phase</p>
+                <h5 style="font-size: 20px;" class="green">Main Phase</h5>
+                <p>
+                    The main phase involves war, blood, and fighting, 
+                    where players do everything they can to gain control of cities and conquer other countries. 
+                    The country that can conquer all the countries in the world wins the game.
+                </p>
                 <h4 style="font-size: 25px;">📃 Commands</h4>
-            <h5 style="font-size: 20px;" class="green">/start</h5><p>Returns Main Game Menu (MGM), including all of user information and all of the commands that user can use.</p>
+                <h5 style="font-size: 20px;" class="green">/start</h5><p>Returns Main Game Menu (MGM), including all of user information and all of the commands that user can use.</p>
+                <div style="display: flex;">
+                    <img style="width: 350px; border-radius: 2.5%;" src="images/main-phase.png" alt="Main Phase MGM">
+                    <img style="width: 375px; border-radius: 2.5%; margin-left: 10px;" src="images/mini-phase.png" alt="Mini Phase MGM">
+                </div>
+                <div style="display: flex; justify-content: center; gap: 250px; margin-top: 10px;">
+                    <p>Main Phase MGM</p>
+                    <p>Mini Phase MGM</p>
+                </div> 
+                <h4 style="font-size: 25px;">📃 Buttons</h4>
+                <p>Buttons are shown when the "/start" command is received</p>
+                <h5 style="font-size: 20px;" class="green">Attack Button</h5><p>Phase: Main<br>This button allows the player to attack other cities and get them in specified conditions</p>
+            <!-- <h5 style="font-size: 20px;" class="green">Button:Attack</h5><p>Returns Attack Menu.</p>
+            <h6 style="font-size: 15px;" class="green">SubButtin:AttackToWho</h6> -->
             <h5 style="font-size: 15px;" class="command">More Coming Soon...</h5>
             </div>
         </div>
